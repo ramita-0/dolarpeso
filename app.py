@@ -44,7 +44,7 @@ def pasarDolarAPeso(dolares):
     print(round(resultado, 3));
 
 def printMenu(fecha):
-    print(f"Programa de cambio de moneda (peso, dolar)       -|Precios ({fecha.year}/{fecha.month}/{fecha.day})|-  Compra: " + valorCompra + "   Venta: " + valorVenta);
+    print(f"Programa de cambio de moneda (peso, dolar)       -|Precios ({fecha.day}/{fecha.month}/{fecha.year})|-  Compra: " + valorCompra + "   Venta: " + valorVenta);
     print("\nIngrese 1 para cambiar pesos(ARS) a dolares");
     print("Ingrese 2 para cambiar dolares a pesos(ARS)       nota: el precio de dolar utilizado es un promedio del de compra y venta");
     print("\n'exit' para salir");
